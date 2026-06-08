@@ -1,0 +1,6 @@
+Area1 ---- Area0 ---- Area2
+
+R1 ----- R2 ----- R3 ----- R4
+
+R2 = ABR
+R3 = ABR
