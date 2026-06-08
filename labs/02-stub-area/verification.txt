@@ -1,0 +1,11 @@
+show ip route
+
+Expect:
+
+O*IA 0.0.0.0/0
+
+show ip ospf database
+
+Verify:
+
+No Type5 LSAs
