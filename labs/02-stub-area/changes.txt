@@ -1,0 +1,11 @@
+R3:
+
+router ospf 1
+ area 2 stub
+
+----------------
+
+R4:
+
+router ospf 1
+ area 2 stub
