@@ -1,0 +1,15 @@
+Remove stub first:
+
+no area 2 stub
+
+Configure NSSA:
+
+area 2 nssa
+
+Create route:
+
+interface loopback1
+ ip address 172.16.100.1 255.255.255.0
+
+router ospf 1
+ redistribute connected subnets
