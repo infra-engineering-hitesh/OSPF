@@ -1,0 +1,21 @@
+show ip ospf database nssa-external
+
+Expect:
+
+Type7
+
+------------------
+
+show ip ospf database external
+
+Expect:
+
+Type5
+
+------------------
+
+show ip route ospf
+
+Expect:
+
+O E2 route learned
